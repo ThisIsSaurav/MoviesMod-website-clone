@@ -1,0 +1,206 @@
+*{margin: 0;padding: 0;}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #18181b;
+}
+
+header{
+    background-color: #27272a;
+    width: 92vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0px 0px 10px 10px;
+}
+.header-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border : 1px solid red; */
+    padding: 25px;
+}
+.search-section{
+    /* border : 1px solid blue; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-section input{
+    width: 90%;
+    height: 38.3px;
+    padding-left: 7px;
+    border: 1px solid #ffffff6e;
+    border-right: none;
+    background: #18181b;
+    color: white;
+     border: 1px 1px 0px 1px ;
+    border-radius: 8px 0px 0px 8px;
+    font-size: 12px;
+    outline: none;
+}
+.search-section button{
+    width: 10%;
+    padding: 5.8px;
+    border: 1px solid #ffffff6e;
+    border-left: none;
+     border-radius: 0px 8px 8px 0px;
+     background-color: #3f3f46;
+     overflow: hidden;
+}
+.search-section button img{
+    filter: invert(100);
+}
+
+.moreWeb button{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 0px 2px;
+    border: none;
+}
+
+/* CSS for Web Navigation bar  */
+.web-menu nav ul{
+    display: flex;
+    /* border : 1px solid red; */
+    color: white;
+    background-color: #494949;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    border-radius: 0px 0px 10px 10px;
+}
+.web-menu nav ul li{
+    list-style: none;
+    padding: 12px 30px;
+    border: 1px solid #ffffff6e;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 0px 8px 8px 0px;
+}
+.web-menu nav ul li img{
+    filter: invert(100);
+}
+
+.web-menu nav ol{
+    display: flex;
+    justify-content: space-between;
+    /* border : 1px solid red; */
+    color: white;
+    background-color: #494949;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    display: none;
+}
+.web-menu nav ol li{
+    list-style: none;
+    padding: 12px 30px;
+}
+.web-menu nav ol li img{
+    filter: invert(100);
+}
+
+
+
+/* css fro categories section  */
+/* above main  */
+.categories-section{
+    display: flex;
+    width: 92vw;
+    /* border : 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 0px 40px 0px;
+}
+ 
+.categories-section button{
+    padding: 8px 15px;
+    margin: 3px 3px;
+    border-radius: 10px;
+    background-color: #3f3f46;
+    border: 1px solid #ffffff6e;
+    color: white;
+}
+#telegram{
+    background-color: #009DE1;
+    border: 2px solid #009DE1;
+ 
+}
+
+/* CSS for Main Section  */
+main{
+    /* border : 1px solid red; */
+    width: 92vw;
+    padding: 5px;
+}
+.main-container{
+    /* border : 1px solid white; */
+    display: grid;
+    /* grid-gap: px; */
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+}
+.box{
+    /* border : 1px solid red; */
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color:  #27272a;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.card p{
+   height: 100px;
+   padding: 20px;
+   font-size: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  
+}
+.card img{
+    border-radius: 15px;
+}
+
+
+/* css for pages goto button  */
+/* below the movies section  */
+.pages-btn{
+    /* border : 1px solid red; */
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    background-color:  #27272a;
+    border-radius: 0px 0px 10px 10px;
+}
+.pages-btn button{
+    padding: 10px 15px;
+    background-color: #494949;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+footer{
+    color: white;
+    padding: 20px;
+    margin-top: 12px;
+    text-align: center;
+    width: 100%;
+    background-color:  #27272a;
+}
